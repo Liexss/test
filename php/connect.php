@@ -2,7 +2,7 @@
 	$host = "localhost";   // 服务器地址 
     $username = "root";   // 用户名
     $password = "571302";  // 密码
-    $databaseName = "test3";  // 数据库名
+    $databaseName = "final";  // 数据库名
     $mysql=db_connection($host, $username, $password, $databaseName);
 	function db_connection($host, $username, $password, $databaseName){
         $conn = mysqli_connect($host, $username, $password, $databaseName);
