@@ -118,13 +118,10 @@
 
 </body>
 </html>
-
+<?php include_once("connect.php");?>
 <?php
-
 function Show(){
-  $db = mysqli_connect("localhost","root","123456","final");
-  $query = "select * from user";
-  $result = mysqli_query($db,$query);
+  $result = mysqli_query($mysql,$query);
 
   if($result)
   {
