@@ -1,0 +1,24 @@
+#icon{
+	 width:40px; 
+	 height:auto;
+}
+.navbar{
+	height:10px;
+}
+
+.blog-nav .active {
+  color: #fff;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  margin-left: -24px;
+  margin-bottom: -1px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid;
+  border-left: 6px solid transparent;
+}

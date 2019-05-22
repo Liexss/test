@@ -155,7 +155,7 @@ function Show(){
 	    					echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p class='glyphicon glyphicon-tower'>管理人员ID: $attr[0]</p>";
 	    				else
 	    					echo "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;普通用户ID: $attr[0]</p>";
-	    				echo "<img id='photo' src='../image/icon.jpg' alt='头像' style='width:140px'  class='img-rounded'>";
+	    				echo "<img id='photo' src='../images/icon.jpg' alt='头像' style='width:140px'  class='img-rounded'>";
 	    				echo "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;账号:<input id='Account$cnt' value='$attr[2]'></input></p>";
 	    				echo "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码:<input id='Password$cnt' value='$attr[3]'></input></p>";
 	    				echo "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;姓名:<input id='Name$cnt' value='$attr[4]'></input></p>";
