@@ -1,0 +1,81 @@
+#icon{
+	width: 40px;
+	padding: 0px;
+}
+
+#title{
+	margin-left: 0px;
+	color: black;
+	font-size: 18px;
+}
+
+#table{
+	border: 2px solid;
+}
+
+#photo{
+	float: right;
+	margin-right: 60px;
+}
+
+#Add{
+	margin-left: 400px;
+}
+
+#Query{
+	margin-left: 100px;
+}
+
+#footer{
+	margin-top: 20px;
+}
+
+.table{
+	margin-bottom: 0px;
+}
+
+.navbar-header{
+	margin-left: 100px;
+}
+
+.navbar-brand{	
+	padding-right: 15px 5px 5px 5px;
+	width: 60px;
+}
+
+.container{
+	background-color: white;
+	margin-top: 30px;
+	margin-left: 10%;
+	padding-bottom: 10px;
+	width: 80%;
+	box-shadow: 0px 0px 20px #000;
+}
+
+h3{
+	padding-left: 50px;
+	margin-bottom: 20px;
+}
+
+td{
+	border: 2px solid #fff;
+}
+
+body{	
+	padding-top: 70px;
+	background-color: #545454;
+}
+
+nav{
+	background-color: white;
+	box-shadow: 0px 10px 20px #000;
+}
+
+input{
+	border-radius: 3px;
+	margin-left: 20px;
+}
+
+input[type="radio"]{
+	margin-left: 20px;
+}
